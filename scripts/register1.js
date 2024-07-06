@@ -9,6 +9,10 @@ function Pet(n,a,g,b,s){
     this.breed=b;
     this.service=s;
 }
+//object literal
+//let myDog = {name: "T-bone", age: 10, gender: "male"}
+
+
 
 function displayPetCount(){
     console.log(pets.length)
