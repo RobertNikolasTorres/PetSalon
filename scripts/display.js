@@ -9,22 +9,11 @@ function displayPetCards(){
             <p>${pet.gender}</p>
             <p>${pet.breed}</p>
             <p>${pet.service}</p>
+            <p>${pet.weight}</p>
         </div>`;
     }
     document.getElementById("pets").innerHTML=card;
 }
-
-//function displayPetTable(){
-    //let row=""; //creating a variable
-    //for(let i=0; i<pets.length;i++){ //travel the array 
-       // let pet = pets[i];
-       // row+=`
-        //<tr>
-        
-        //</tr>`;
-   // }
-   // document.getElementById("pets").innerHTML=card;
-//}
 
 function displayTable(){
     let row="";//creating a var
@@ -38,6 +27,7 @@ function displayTable(){
             <td>${pet.gender}</td>
             <td>${pet.breed}</td>
             <td>${pet.service}</td>
+            <td>${pet.weight}</td>
 
             <td><button onclick="deletePet(${i});">Delete</button></td>
         </tr>
