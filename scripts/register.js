@@ -1,6 +1,18 @@
 console.log("Hello Nico")
 let pets = [];
 
+$("#p-header").css("text-align","center").css;
+$(".header").css("background","black").css("color","white");
+$("#nav").css("color","white").css;
+//-----main--------
+$("#main").css("background","lightgray").css;
+$(".title").css("text-align","center").css;
+$("#input-box").css("margin-top","30px").css;
+
+//----button-------
+$(".btn-container").css("display","flex").css("flex-direction","column").css("margin-left","40%").css("margin-right","40%").css;
+$("#btn").css("background","black").css("color","red").css("font-size","20px").css("border-radius","40%").css;
+
 //create pet constructor
 function Pet(n,a,g,b,s,w){
     this.name=n;
@@ -67,9 +79,10 @@ function init(){
 }
 
 window.onload=init; //waiting to render HTML
-
-//<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
-
 $("#p-header").css("text-align","center").css;
 $(".header").css("background","black").css("color","white");
 $("#nav").css("color","white").css;
+
+//<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+
+//    <link rel="stylesheet" href="mystyle.css">
