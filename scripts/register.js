@@ -68,3 +68,8 @@ function init(){
 
 window.onload=init; //waiting to render HTML
 
+//<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+
+$("#p-header").css("text-align","center").css;
+$(".header").css("background","black").css("color","white");
+$("#nav").css("color","white").css;

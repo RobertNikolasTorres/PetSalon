@@ -49,18 +49,23 @@ function isValidService(newService){
 
         if(newService.description == ""){
             isValidDescription = false
-            $("#txtDescription").css("background","red ")
+            $("#txtDescription").css("background","red")
+
         }else{
             isValidDescription = true
             $("#txtDescription").css("background", "none")
+            $("#txtDescription").val("")
     }
 
     if(newService.price == "") {
         isValidPrice = false
         $("#txtPrice").css("background", "red")
+
+        
     }else {
         isValidPrice = true
-        $("#txtPrice").css("border","none")
+        $("#txtPrice").css("background","none")
+        $("#txtPrice").val("")
     }
     console.log("isValidDescription", isValidDescription)
     console.log("isValidPrice", isValidPrice)
