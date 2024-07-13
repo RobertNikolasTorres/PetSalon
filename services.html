@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <title>The Fashion Pet Services</title>
+</head>
+<body>
+    <main id="main">
+        <header class="header">
+            <nav id="nav">
+                <a href="index.html">Home</a>
+                <a href="services.html">Services</a>
+            </nav> 
+            <p id="p-header">Register a new service</p> 
+        </header>
+
+        <h1 class="title">Register Pet Now</h1>
+        <div class="form-container">
+            <div>
+                <label class="form-label" for="">Description:</label>
+                <input class="form-control" type="text" id="txtDescription">
+            </div>
+
+            <div>
+                <label class="form-label" for="">Price:</label>
+                <input class="form-control" type="text" id="txtPrice">
+            </div>
+        </div>
+
+        <div class="btn-container">
+            <button id="btn" onclick="register()">Register</button>
+        </div>
+
+
+    </main>
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.js"
+      integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+      crossorigin="anonymous"
+    ></script>
+    <script src="scripts/services.js"></script>
+</body>
+</html>

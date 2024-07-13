@@ -1,0 +1,12 @@
+body {
+    background-color: gray;
+}
+header {
+    background-color: black;
+    text-align: right;
+    color: white;
+    font-size: 30px;
+}
+p.header {
+    text-align: center;
+}
